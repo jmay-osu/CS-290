@@ -1,0 +1,185 @@
+<!---------------------------
+    AUTHOR: Jessica May
+    DATE: June 27, 2017
+    COURSE: CS 290
+    ASSIGNMENT: HTML/CSS
+---------------------------->
+
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" href="style.css">
+<body>
+
+<!-- Create a 6x6 table -->
+
+    <table>
+        <caption>Multiplication Table Up to 5*5</caption>
+        <tr>
+            <th></th>
+            <th>1</th>
+            <th>2</th>
+            <th>3</th>
+            <th>4</th>
+            <th>5</th>
+        </tr>
+        <tr> 
+            <td><i>1</i></td>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+            <td>5</td>
+        </tr>
+        <tr>
+            <td><i>2</i></td>
+            <td>2</td>
+            <td>4</td>
+            <td>6</td>
+            <td>8</td>
+            <td>10</td>
+        </tr>
+        <tr>
+            <td><i>3</i></td>
+            <td>3</td>
+            <td>6</td>
+            <td>9</td>
+            <td>12</td>
+            <td>15</td>
+        </tr>
+        <tr>
+            <td><i>4</i></td>
+            <td>4</td>
+            <td>8</td>
+            <td>12</td>
+            <td>16</td>
+            <td>20</td>
+        </tr>
+        <tr>
+            <td><i>5</i></td>
+            <td>5</td>
+            <td>10</td>
+            <td>15</td>
+            <td>20</td>
+            <td>25</td>
+        </tr>
+        <tfoot>
+            <tr>
+                <td colspan="2">Footer 1</td>
+                <td colspan="4">Footer 2</td>
+            </tr>
+        </tfoot>
+    </table>    
+
+<!-- Create a list with at least 3 entries -->
+
+    <ul>
+        <li>First list entry</li>
+        <li>Second list entry</li>
+        <li>Third list entry</li>
+    </ul>
+
+<!-- Create a div -->
+
+    <div id="outer-content">
+        <div id="inner-content">
+             <p>Here is some content.</p>
+        </div>
+    </div>
+
+<!-- Create two forms -->
+
+    <form action="http://classes.engr.oregonstate.edu/eecs/winter2015/cs290-400/tools/class-content/form_tests/check_request.php" method="post">
+    <fieldset>
+        <legend>Some POST Data</legend>
+
+        <fieldset>
+            <label>Text here:</label>
+            <input type="text" name="text_input"/>
+        </fieldset>
+        <br/>
+
+        <fieldset>
+            <label>Number here:</label>
+            <input type="number"  name="numerical_input"/>
+        </fieldset>
+        <br/>
+
+        <fieldset>
+            <label>Password here:</label>
+            <input type="password" name="password_input"/>
+        </fieldset>
+        <br/>
+
+    <fieldset>
+            <p>Select between:</p>
+
+            <label>
+                <input type="radio" name="candy" value="Snickers"/>
+            Snickers</label>
+            <br/>
+
+            <label>
+                <input type="radio" name="candy" value="Skittles">
+            Skittles</label>
+            <br/>
+
+            <label>
+                <input type="radio" name="candy" value="Mentos">
+            Mentos</label>
+            <br/>
+
+            <input type="submit" value="Submit"/>
+    </fieldset>
+    </fieldset>
+    </form>
+
+<!-- Break between the two forms -->
+    <br/>
+
+    <form action="http://classes.engr.oregonstate.edu/eecs/winter2015/cs290-400/tools/class-content/form_tests/check_request.php" method="get">
+    <fieldset>
+        <legend>Some GET Data</legend>
+
+        <fieldset>
+            <label>Text here:</label>
+            <input type="text" name="text_input"/>
+        </fieldset>
+        <br/>
+
+        <fieldset>
+            <label>Number here:</label>
+            <input type="number"  name="numerical_input"/>
+        </fieldset>
+        <br/>
+
+        <fieldset>
+            <label>Password here:</label>
+            <input type="password" name="password_input"/>
+        </fieldset>
+        <br/>
+
+    <fieldset>
+            <p>Select between:</p>
+
+            <label>
+                <input type="radio" name="candy" value="Snickers">
+            Snickers</label>
+            <br/>
+
+            <label>
+                <input type="radio" name="candy" value="Skittles">
+            Skittles</label>
+            <br/>
+
+            <label>
+                <input type="radio" name="candy" value="Mentos">
+            Mentos</label>
+            <br/>
+
+            <input type="submit" value="Submit"/>
+    </fieldset>
+    </fieldset>
+    </form>
+ 
+</body>
+</html>
